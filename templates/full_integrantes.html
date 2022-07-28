@@ -1,0 +1,9 @@
+{% for i in full_integrantes %}
+
+<h1> Nombre y apellido: {{i.name}} {{i.last_name}} </h1> 
+<h2> Trabaja {{i.daily_work_hours}} horas al día. </h2>
+<h2> Tiene mascotas? {{i.pets}} </h2>
+<h5> Este dato se creo el: {{i.data_creation_date}} </h5>
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+{% endfor %}
